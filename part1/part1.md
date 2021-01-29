@@ -46,4 +46,5 @@
     true            //Boolean(a) where a != 0 returns true, they are both of the boolean type
 16. == does type conversions and === compares the exact data types given
 17. How are you? gets printed. It does a conversion from true to 1, then compares 2 to 1, which are not the same. An if check of non-zero returns true, so the second condition is met.
-19. 
+19. The function will return the array [6,8,10]. Each number entered [1,2,3] is directed to doSomething with the specified callback, which adds 2 to each (giving us [3,4,5]). Then modifyArray multiplies each returned number by 2, puts those numbers into an array, and returns that array (giving us [6,8,10]).
+21. The output is 1, 4, 3, 2 
